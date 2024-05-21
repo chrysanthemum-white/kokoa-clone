@@ -1,0 +1,28 @@
+.header {
+  display: flex;
+  justify-content: center;
+  padding: 5px 3px;
+}
+
+.header__box {
+  width: 33%;
+}
+
+.header__box:first-child i {
+  margin-left: 5px;
+}
+
+.header__box:nth-child(2) {
+  display: flex;
+  justify-content: center;
+}
+
+.header__box:last-child {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+  & i {
+    margin-left: 5px;
+  }
+}

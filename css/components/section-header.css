@@ -1,0 +1,34 @@
+.section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--horizontal-space);
+}
+
+.section-header__title {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.section-header__icon {
+  & span {
+    margin-left: 20px;
+  }
+}
+
+@keyframes rotateCog {
+  from {
+    transform: 0;
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.section-header__icon .fa-gear:hover {
+  animation: rotateCog 3s ease-in-out infinite;
+}
+
+.relative {
+  position: relative;
+}

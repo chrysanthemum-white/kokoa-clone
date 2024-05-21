@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Kokoa Clone - Chat</title>
+  </head>
+  <body id="chat-screen">
+    <header class="header">
+      <div class="header__box">
+        <span>No Service</span>
+        <i class="fa-solid fa-wifi fa-sm"></i>
+      </div>
+      <div class="header__box">
+        <span>18:43</span>
+      </div>
+      <div class="header__box">
+        <span>11%</span>
+        <i class="fa-solid fa-battery-quarter fa-xl"></i>
+        <i class="fa-solid fa-bolt-lightning"></i>
+      </div>
+    </header>
+
+    <section class="alt-header">
+      <div class="alt-header__column">
+        <a href="more.html">
+          <i class="fas fa-angle-left fa-xl"></i>
+        </a>
+      </div>
+      <div class="alt-header__column">
+        <h1 class="alt-header__title">Christina</h1>
+      </div>
+      <div class="alt-header__column">
+        <i class="fas fa-search fa-lg"></i>
+        <i class="fa-solid fa-bars fa-lg"></i>
+      </div>
+    </section>
+
+    <main class="main-screen main-chat">
+      <div class="main-chat__timestamp">Tuesday, June 30, 2020</div>
+      <div class="message-row">
+        <img
+          src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=2576&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          alt="avarta"
+        />
+        <div class="message-row__content">
+          <span class="message__author">Christina</span>
+          <div class="message__info">
+            <span class="message__bubble message__bubble--white">Hi!</span>
+            <span class="message__time">21:27</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="message-row message-row--own">
+        <div class="message-row__content">
+          <div class="message__info">
+            <span class="message__bubble message__bubble--yellow"
+              >Hi nice to meet you!</span
+            >
+            <span class="message__time">21:27</span>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <form class="reply">
+      <div class="reply__column">
+        <i class="fa-regular fa-square-plus fa-xl"></i>
+      </div>
+      <div class="reply__column">
+        <input
+          class="reply__input"
+          type="text"
+          placeholder="Write a message..."
+        />
+        <i class="fa-regular fa-face-laugh-squint fa-xl"></i>
+        <button>
+          <i class="fa-solid fa-arrow-up"></i>
+        </button>
+      </div>
+    </form>
+
+    <div id="no-mobile">
+      <span>Your screen is too big 😁</span>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/e98e56475b.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

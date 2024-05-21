@@ -1,0 +1,49 @@
+.more-screen .icon-rows {
+  margin-top: 30px;
+}
+
+.margin-top-50px {
+  margin-top: 50px;
+}
+
+.user-component__subtitle i {
+  color: tomato;
+}
+
+.more-suggestions {
+  margin-top: 50px;
+  padding-top: 40px;
+  border-top: var(--border-line);
+}
+
+.more-suggestions__icons {
+  display: flex;
+  margin-top: 30px;
+
+  & .more-suggestions__icon {
+    margin-right: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    & .more-suggestions__icon-image {
+      width: 60px;
+      height: 60px;
+      background-color: tomato;
+      border-radius: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      & i {
+        font-size: 25px;
+        color: white;
+      }
+    }
+
+    & .more-suggestions__icon-text {
+      display: block;
+      margin-top: 10px;
+    }
+  }
+}
